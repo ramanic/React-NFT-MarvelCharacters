@@ -1,0 +1,12 @@
+.collectionList {
+  display: flex;
+  overflow: scroll;
+  cursor: pointer;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+
+collectionList ::webkit-scrollbar {
+  display: none;
+}

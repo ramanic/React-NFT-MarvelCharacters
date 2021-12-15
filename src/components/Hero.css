@@ -1,0 +1,72 @@
+.hero {
+  height: 45vh;
+}
+.heroContent {
+  display: flex;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+.heroHighlight {
+  flex: 0.25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.heroContainer {
+  border-radius: 20px;
+  overflow: hidden;
+  display: flex;
+  margin-right: 20px;
+}
+.heroDetails {
+  display: flex;
+  flex-direction: column;
+  flex: 0.5;
+  color: white;
+}
+.selectedCharacter {
+  object-fit: contain;
+  justify-content: space-between;
+  max-height: 40vh;
+}
+.title {
+  font-size: 96px;
+  font-weight: 800;
+}
+.itemNumber {
+  color: #a1a5b0;
+  font-size: 50px;
+  font-weight: 600;
+}
+.ownerImageContainer {
+  display: flex;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.ownerImageContainer > img {
+  max-width: 50px;
+  border-radius: 50px;
+}
+.ownerNameAndHandle {
+  color: #a1a5b0;
+  padding-left: 20px;
+}
+.ownerDetails {
+  display: flex;
+}
+.ownerLink > img {
+  padding-right: 10px;
+  width: 50px;
+}
+.handle {
+  font-size: 20px;
+  color: white;
+}
+.buy {
+  text-align: center;
+  color: white;
+  padding: 15px 40px;
+  background: linear-gradient(to right, #ec1c23, #fe6666);
+  border-radius: 50px;
+  font-weight: bold;
+}
